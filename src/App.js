@@ -6,14 +6,17 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import { Home } from './pages';
 
 function App() {
   return (
-    <Switch>
-      <Route path="/" exact>
-        <Home />
-      </Route>
-    </Switch>
+    <Router>
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

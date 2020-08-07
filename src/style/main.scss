@@ -1,7 +1,7 @@
-// @import './variables.scss';
+@import './variables.scss';
 @import './components.scss';
 @import './flex.scss';
-@import './typograph.scss';
+@import './typography.scss';
 
 @function pow($base, $exp) {
     $res: 1;
