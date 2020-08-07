@@ -1,10 +1,11 @@
 import React from 'react'
+import { Layout } from '../components'
 
-export const HomeDefault = () => {
+export const Home = () => {
 
     return (
         <Layout>
-            <Button>Shorten</Button>
+            <p>Hello World</p>
         </Layout>
     )
 }
