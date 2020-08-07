@@ -8,9 +8,10 @@ export const Navigation = (props) => {
     const history = useHistory()
 
     return (
-        <div className='w100 flex items-center flex-row'>
+        <div className='w100 flex items-center flex-row b-primary'>
             <div className='flex items-center flex-row justify-start'>
                 <Icon className='items-start' />
+                <p>FINITE</p>
                 <p className='font-montserrat fs-25 lh-30 c-gray items-end'>FAQ</p>
             </div>
             <div className='flex items-center flex-row justify-end'>
