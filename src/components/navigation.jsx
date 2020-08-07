@@ -8,12 +8,12 @@ export const Navigation = (props) => {
     const history = useHistory()
 
     return (
-        <div className='w100 flex items-center flex-row'>
-            <div className='flex items-center flex-row items-start'>
+        <div className='w100 flex items-center flex-row items-start'>
+            <div className='flex items-center flex-row justify-start'>
                 <Icon className='items-start' />
                 <p className='font-montserrat fs-25 lh-30 c-gray items-end'>FAQ</p>
             </div>
-            <div className='flex items-center flex-row items-end'>
+            <div className='flex items-center flex-row justify-end'>
                 <p className='font-montserrat fs-25 lh-30 c-gray items-end'>Login</p>
                 <Button className='btn b-secondary c-default fs-20 lh-24'>Register</Button>
             </div>
